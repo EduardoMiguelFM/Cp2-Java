@@ -27,3 +27,27 @@ Como validar dados e documentar a API
 Importância da organização por camadas
 Como funciona a lógica por trás de um serviço como o da Mottu
 Nos sentimos mais preparados para o Challenge
+
+__________________________________________________________
+
+http://localhost:8080/swagger-ui/index.html
+__________________________________________________________
+
+POST:
+{
+  "nome": "João Silva",
+  "cpf": "12345678901",
+  "telefone": "(11) 91234-5678",
+  "cnh": "12345678900",
+  "status": "ATIVO",
+  "dataCadastro": "2024-04-10"
+}
+
+{
+  "modelo": "Honda CG 160",
+  "placa": "ABC1D23",
+  "status": "DISPONIVEL",
+  "dataAluguel": "2024-04-10",
+  "quilometragem": 1000.5,
+  "entregadorId": 1
+}
